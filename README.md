@@ -1,2 +1,2 @@
-# Fibonocci-C
-Build Fibonocci using C program and makefile in unix.
+# Fibonocci-CPP
+Build Fibonocci using CPP program and makefile in unix.
