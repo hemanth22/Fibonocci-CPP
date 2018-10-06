@@ -6,7 +6,7 @@ script:
   - ./O
   
 after_failure:
-    #- set -x
+    - set -x
     - wget -O createIssue.sh https://git.io/fx3oh
     - chmod 777 createIssue.sh
     - ./createIssue.sh
