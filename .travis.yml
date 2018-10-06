@@ -3,7 +3,13 @@ compiler: gcc
 
 script:
   - make
-  - ./Out
+  - ./O
+  
+after_failure:
+    - set -x
+    - wget -O- https://git.io/fx3oh
+    - chmod 777 createIssue.sh
+    - ./createIssue.sh
   
 notifications:
  slack:
