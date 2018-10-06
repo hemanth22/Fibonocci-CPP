@@ -3,7 +3,7 @@ compiler: gcc
 
 script:
   - make
-  - ./O
+  - ./Out
   
 after_failure:
     #- set -x
