@@ -1,0 +1,17 @@
+node{
+    stage("Downloading code"){
+    
+    }
+    stage("Building"){
+              parallel{
+                  stage("Compiling code 1"){
+                  
+                  }
+                  
+                  stage("Compiling code 2"){
+                  
+                  }
+              }
+    }
+    
+}
