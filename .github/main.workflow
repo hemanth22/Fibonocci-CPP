@@ -1,6 +1,6 @@
 workflow "Build and Test code." {
   on = "push"
-  resolves = ["Test on Travis CI"]
+  resolves = ["Test on Travis CI."]
 }
 
 action "Test on Travis CI." {
